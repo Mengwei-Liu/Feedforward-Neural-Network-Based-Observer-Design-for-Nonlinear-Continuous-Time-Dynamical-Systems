@@ -57,5 +57,3 @@ save('P_gridded_interpolants.mat', 'F11_grid', 'F12_grid', 'F22_grid');
 fprintf('网格插值数据已保存，使用 ndgrid 格式\n');
 
 
-fc = 10;          % 截止频率 10 Hz（先用这个）
-wc = 2*pi*fc;     % 角频率
